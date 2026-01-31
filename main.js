@@ -50,7 +50,7 @@ ipcMain.on('window-move', (event, { x, y }) => {
 ipcMain.on('show-context-menu', () => {
     const template = [
         {
-            label: 'Close Dancing Cat',
+            label: 'close kitty :(',
             click: () => {
                 app.quit();
             }
