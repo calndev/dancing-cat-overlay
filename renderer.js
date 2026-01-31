@@ -72,4 +72,4 @@ window.addEventListener('contextmenu', (e) => {
 function cycleCat() {
     currentIndex = (currentIndex + 1) % cats.length;
     catGif.src = `${assetsPath}${cats[currentIndex]}`;
-}a
+}
