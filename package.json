@@ -1,0 +1,16 @@
+{
+  "name": "dancing-cat-overlay",
+  "version": "1.0.0",
+  "description": "A draggable, resizable, animated cat overlay",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^34.0.0"
+  }
+}
