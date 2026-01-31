@@ -50,6 +50,14 @@ ipcMain.on('window-move', (event, { x, y }) => {
 ipcMain.on('show-context-menu', () => {
     const template = [
         {
+            label: 'Stay on top :3',
+            type: 'checkbox',
+            checked: mainWindow.isAlwaysOnTop(),
+            click: (item) => {
+                mainWindow.setAlwaysOnTop(item.checked);
+            }
+        },
+        {
             label: 'close kitty :(',
             click: () => {
                 app.quit();
